@@ -10,74 +10,50 @@
 </head>
 <body>
     <div id="wrap">
+    <section class="et-hero-tabs img-main">
+        <h1>여기가 사이트 시작화면임</h1>
+        <h3>시작화면 부제쓰는 자리.</h3>
+        <div class="et-hero-tabs-container">
+          <a class="et-hero-tab" href="#tab-intro">소개</a>
+          <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
+          <a class="et-hero-tab" href="#tab-course">커리큘럼</a>
+          <a class="et-hero-tab" href="#tab-pass">합격자현황</a>
+          <a class="et-hero-tab" href="#tab-other">상담문의</a>
+          <span class="et-hero-tab-slider"></span>
+        </div>
+    </section>  <!-- // et-hero-tabs -->
 
-        <div id="slider" class="sl-slider-wrapper">
-            <div class="sl-slider">
-
-                <!-- slider-1 -->
-                <div class="sl-slider bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-                    <div class="sl-slider-inner">
-                        <div class="decoration"></div>
-                        <!-- ... -->
-                    </div>
-                </div>
-
-                <!-- slider-2 -->
-                <div class="sl-slider bg-2">
-                    <div class="sl-slider-inner">
-                        <div class="decoration"></div>
-                        <!-- ... -->
-                    </div>
-                </div>
-
-                <!-- slider-3 -->
-                <div class="sl-slider bg-3">
-                    <div class="sl-slider-inner">
-                        <div class="decoration"></div>
-                        <!-- ... -->
-                    </div>
-                </div>
-
-                <!-- slider-4 -->
-                <div class="sl-slider bg-4">
-                    <div class="sl-slider-inner">
-                        <div class="decoration"></div>
-                        <!-- ... -->
-                    </div>
-                </div>
-
-            </div>  <!-- // .sl-slider -->
-
-            <!-- Navigation Arrows -->
-            <nav id="nav-arrows" class="nav-arrows">
-                <span class="nav-arrow-prev">Previous</span>
-                <span class="nav-arrow-next">Next</span>
-            </nav>  <!-- nav arrows -->
-
-            <!-- Navigation Dots -->
-            <nav id="nav-dots" class="nav-dots">
-                <span class="nav-dot-current"></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </nav>  <!-- // nav dots -->
-
-        </div>  <!-- // .sl-slider-wrapper -->
+    <!-- main contents -->
+    <main class="et-main">
+        <section class="et-slide" id="tab-intro">
+            <h1>소개부분</h1>
+            <h3>인사말, 선생소개나 약력</h3>
+        </section>
+        <section class="et-slide" id="tab-flexbox">
+            <h1>Flexbox</h1>
+            <h3>something about flexbox</h3>
+        </section>
+        <section class="et-slide" id="tab-course">
+            <h1>커리큘럼부분</h1>
+            <h3>극한, 미분, 극좌표, 적분, 정적분 유형, 무한급수</h3>
+        </section>
+        <section class="et-slide" id="tab-pass">
+            <h1>합격자현황</h1>
+            <h3>합격자 이미지넣는곳</h3>
+        </section>
+        <section class="et-slide" id="tab-other">
+            <h1>상담문의</h1>
+            <h3>이메일폼이랑 카톡아이디, 핸드폰번호쓸곳</h3>
+        </section>
+      </main>   <!-- // .et-main -->
 
     </div>  <!-- // #wrap -->
 
-
-
 <!--
-    Reference.
-    1. https://tympanus.net/Development/DraggableDualViewSlideshow/
-        maincontent slideshow.
-    2. http://demos.themecycle.com/edupress-kid/
-    3. https://tympanus.net/codrops/2012/06/05/fullscreen-slit-slider-with-jquery-and-css3/
+    극한, 미분, 극좌표, 적분, 정적분 유형, 무한급수.
 -->
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
