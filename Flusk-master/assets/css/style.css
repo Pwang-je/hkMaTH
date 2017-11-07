@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* images Resize */
 .blog-images {
-	height: 270.59px;
+	/* height: 270.59px; */
 }
 
 
@@ -466,4 +466,13 @@ h1, h2, h3, h4, h5, h6{
 	#header {
 		background-size: cover;
 	}
+
+    .blog-post {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
 }
