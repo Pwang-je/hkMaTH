@@ -310,9 +310,26 @@ h1, h2, h3, h4, h5, h6{
 .recent-work:hover:before, .recent-work:hover span {
     opacity: 1;
 }
-
-
-
+.recent-common {
+    margin-bottom: .8rem;
+    text-align: center;
+}
+    .recent-common ul {
+        overflow: hidden;
+        height: 370px;
+        padding-left: 0;
+        border: 1px solid #ccc;
+        border-radius: 2rem;
+        list-style: none;
+    }
+        .recent-common ul li {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .recent-img {
+            height: 200px;
+        }
 
 
 /*////////////////////////////////////////////////////////////////////////
